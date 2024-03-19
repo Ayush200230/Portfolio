@@ -1,7 +1,7 @@
 import Contact from "@/components/Contact";
 import Navbar from "@/components/Navbar";
 import { useEffect, useState } from "react";
-import Preloader from "@/components/Preloader";
+import Preloader from "@/components/PreLoader";
 import { useRouter } from "next/router";
 import "@/styles/globals.css";
 import { ThemeProvider } from "next-themes";
