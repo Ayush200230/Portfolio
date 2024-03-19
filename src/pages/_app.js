@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowPage(true);
-    }, 5000);
+    }, 1000);
 
     return () => clearTimeout(timeoutId);
   }, []);
